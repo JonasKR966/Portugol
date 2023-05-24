@@ -1,21 +1,24 @@
-programa {
-  inteiro i = 1
-  inteiro nota
-  inteiro soma = 1
+programa
+{
+	
 
-  funcao inicio() {
-    enquanto (i <= 3){
-      escreva ("Escreva a nota " + i + "\n")
-      leia (nota)
-    
-    soma *= nota 
+real nota = 1 
+real valor
+real resultado = 0
+ 
 
-  
-    i++
+	
+	funcao inicio()
+	{
 
-    
-  }
-  escreva ("Multiplicação = " + soma)
+	para(nota; nota <= 5; nota++){
+		escreva("\n Digite um valor: "  )
+		leia (valor)
+		 resultado += valor
+	
+	}
+	escreva("A soma é: " + resultado)
+		
 }
 }
 /* $$$ Portugol Studio $$$ 
@@ -23,7 +26,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 61; 
+ * @POSICAO-CURSOR = 39; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

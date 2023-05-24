@@ -1,29 +1,30 @@
-programa {
-  inteiro i = 1
-  inteiro nota
-  inteiro soma = 1
+programa
+{
+	inteiro i, resultado
+	funcao inicio()
+	{
 
-  funcao inicio() {
-    enquanto (i <= 3){
-      escreva ("Escreva a nota " + i + "\n")
-      leia (nota)
-    
-    soma *= nota 
+	para (i = 5 ; i <= 30; i++){
 
-  
-    i++
+		
 
-    
-  }
-  escreva ("Multiplicação = " + soma)
+		se(i%2 == 1){
+escreva("\n É impar:  " + i)
+			
+		}
+		senao{escreva("\n Não é impar: " + i)
+	}
+		
+	}
 }
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 61; 
+ * @POSICAO-CURSOR = 192; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
