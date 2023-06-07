@@ -1,22 +1,24 @@
 programa
 {
-	inteiro i, resultado
+	inteiro valor,vezes,maior
 	funcao inicio()
 	{
 
-	para (i = 0 ; i <= 50; i++){
-
+	para(vezes =0 ;vezes <= 1; vezes++) {
+		escreva("Digite 2 valores: \n")
+		leia (valor)
 		
-
-		se(i%5 == 0){
-escreva("\n É da tabuada do 5:  " + i)
-			
+			se(vezes == 1) {
+				maior = valor
+				
+			}
+		senao se(valor > maior){
+			maior = valor
 		}
-		senao{escreva("\n Não é da tabuada do 5: " + i)
 	}
+	escreva("Maior valor é: " + maior)
 		
 	}
-}
 }
 
 /* $$$ Portugol Studio $$$ 
@@ -24,7 +26,7 @@ escreva("\n É da tabuada do 5:  " + i)
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 194; 
+ * @POSICAO-CURSOR = 117; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

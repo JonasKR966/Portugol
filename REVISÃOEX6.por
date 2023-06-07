@@ -1,30 +1,26 @@
 programa
 {
-	inteiro i, resultado
+	inteiro i = 350
 	funcao inicio()
 	{
 
-	para (i = 0 ; i <= 50; i++){
+	enquanto (i>101){
 
-		
-
-		se(i%5 == 0){
-escreva("\n É da tabuada do 5:  " + i)
-			
-		}
-		senao{escreva("\n Não é da tabuada do 5: " + i)
+		i--
+		escreva(i)
 	}
+		
 		
 	}
 }
-}
+
 
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 194; 
+ * @POSICAO-CURSOR = 65; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -1,22 +1,20 @@
 programa
 {
-	inteiro i, resultado
+	real salario, pre
+	cadeia nome
 	funcao inicio()
 	{
-
-	para (i = 0 ; i <= 50; i++){
-
-		
-
-		se(i%5 == 0){
-escreva("\n É da tabuada do 5:  " + i)
-			
-		}
-		senao{escreva("\n Não é da tabuada do 5: " + i)
-	}
+	escreva("Digite o nome do funcionario \n")
+	leia (nome)
+	escreva("Digite o salario do funcionario \n")
+     leia (salario)
+    pre = (salario * 1.20) / 1.07
+    escreva("A renda final do " + nome + " foi " + pre)
+     
+     
+	
 		
 	}
-}
 }
 
 /* $$$ Portugol Studio $$$ 
@@ -24,7 +22,7 @@ escreva("\n É da tabuada do 5:  " + i)
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 194; 
+ * @POSICAO-CURSOR = 215; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
